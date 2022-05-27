@@ -1,5 +1,7 @@
 package Trees;
 
+import javax.tools.ForwardingFileObject;
+
 class Node{
     int data;
     Node left;
@@ -9,4 +11,5 @@ class Node{
         left=null;
         right=null;
     }
+    
 }
